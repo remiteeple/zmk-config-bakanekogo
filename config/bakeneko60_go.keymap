@@ -83,7 +83,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans              &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans                      &trans
 &trans          &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans              &trans
-&trans  &trans          &trans                  &bootloader                          &trans  &trans  &trans              &trans
+&trans  &trans          &trans                  &bootloader                          &mo 4   &trans  &trans              &trans
             >;
         };
     };
