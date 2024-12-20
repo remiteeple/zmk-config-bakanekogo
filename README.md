@@ -1,5 +1,6 @@
 # ZMK BakanekoGO Configuration
-Personal ZMK Config for CannonKeys BakanekoGO
+
+[Personal ZMK Config for CannonKeys BakanekoGO](https://nickcoutsos.github.io/keymap-editor/)
 
 Optimized for programming on the *go* with a small form factor keyboard allowing ergonomic access to all important keybinds.  Keybinds designed to allow users to utilize either of their hands to toggle to the function layer if the other hand is occupied with a pointing device.
 
