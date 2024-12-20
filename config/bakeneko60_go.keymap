@@ -35,7 +35,7 @@
             bindings = <
 &kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6           &kp F7  &kp F8           &kp F9          &kp F10          &kp F11       &kp F12  &kp INSERT  &kp DEL
 &trans     &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp UP_ARROW  &trans               &trans
-&trans     &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME         &kp PG_UP       &kp LEFT         &kp RIGHT                          &bootloader
+&trans     &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME         &kp PG_UP       &kp LEFT         &kp RIGHT                          &trans
 &trans             &trans  &trans  &trans  &trans  &trans           &trans  &trans           &kp END         &kp PAGE_DOWN    &kp DOWN      &trans               &trans
 &trans     &trans          &trans                  &rgb_ug RGB_TOG                                           &kp PSCRN        &trans        &mo 2                &mo 1
             >;
@@ -51,11 +51,11 @@
             // ------------------------------------------------------------------------------------------------
 
             bindings = <
-&kp GRAVE        &kp F1  &kp F2  &kp F3  &kp F4           &kp F5           &kp F6           &kp F7           &kp F8    &kp F9     &kp F10        &kp F11       &kp F12  &trans  &kp DEL
-&rgb_ug RGB_EFR  &trans  &trans  &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans    &trans     &trans         &kp UP_ARROW  &trans           &trans
-&rgb_ug RGB_EFF  &trans  &trans  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &kp HOME  &kp PG_UP  &kp LEFT       &kp RIGHT                      &bootloader
-&trans                   &trans  &trans  &trans           &trans           &trans           &trans           &trans    &kp END    &kp PAGE_DOWN  &kp DOWN      &trans           &trans
-&trans           &trans          &trans                                    &rgb_ug RGB_TOG                                        &kp PSCRN      &mo 3         &mo 2            &trans
+&kp GRAVE        &kp F1  &kp F2  &kp F3  &kp F4           &kp F5           &kp F6           &kp F7           &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp DEL
+&rgb_ug RGB_EFR  &trans  &trans  &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans  &trans  &trans   &trans   &trans           &trans
+&rgb_ug RGB_EFF  &trans  &trans  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans  &trans  &trans   &trans                    &bootloader
+&trans                   &trans  &trans  &trans           &trans           &trans           &trans           &trans  &trans  &trans   &trans   &trans           &trans
+&trans           &trans          &trans                                    &rgb_ug RGB_TOG                                   &trans   &mo 3    &mo 2            &trans
             >;
         };
 
